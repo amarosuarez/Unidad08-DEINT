@@ -11,7 +11,7 @@
 
         <ScrollView Grid.Row="0">
             <VerticalStackLayout>
-                <ListView x:Name="listaView" ItemsSource="{Binding lista}" Margin="20">
+                <ListView x:Name="listaView" Margin="20">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
